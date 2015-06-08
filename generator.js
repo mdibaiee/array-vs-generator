@@ -13,6 +13,9 @@ var squared = (function* () {
 }());
 
 console.log('First Element:', squared.next().value);
+console.log('Second Element:', squared.next().value);
+console.log('Third Element:', squared.next().value);
+console.log('Forth Element:', squared.next().value);
 
 console.timeEnd('generator');
 
